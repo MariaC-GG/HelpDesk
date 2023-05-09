@@ -8,228 +8,59 @@
     <title>HelpDesk</title>
 </head>
 <body>
-    <h1>Reclamações</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="relatorio.html"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Chamado ...</h1>
     <table>
-        <tr>
+        <!-- <tr>
             <th>Nome</th>
-            <th>Descriação do problema</th>
+        </tr> -->
+        <tr>
+            <td>Cliente<input type="text" name="Nome" size="10"/></td>
+        </tr>
+        <!-- <tr>
+            <th>Nome do Sistema</th>
+        </tr> -->
+        <tr>
+            <td>Sistema<input type="text" name="Nome" size="10"/></td>
+        </tr>
+        <tr>
+                <th>Processo/Módulo:</th>
+        </tr>
+        <tr>
+            <td>Processo<input type="text" name="Nome" size="10"/></td>
+        </tr>
+        <tr>
+            <td>Módulo<input type="text" name="Nome" size="10"/></td>
+        </tr>
 
+        <tr>
+            <th>Tipo de manutenção/SLA:</th>
+    </tr>
+    <tr>
+        <td>Tipo de manutenção<input type="text" name="Nome" size="10"/></td>
+    </tr>
+    <tr>
+        <td>SLA<input type="text" name="Nome" size="10"/></td>
+    </tr>
+
+        <tr>
+            <th><h1>Título/Descrição:</h1></th>
         </tr>
         <tr>
-            <td><input type="text" name="Nome" size="10"/></td>
-            <td>aaaaaaaaaa</td>
+            <td>Título<input type="text" name="Nome" size="10"/></td>
         </tr>
         <tr>
-            <td><input type="text" name="Nome" size="10"/></td>
-            <td>aaaaaaaaaa</td>
-        </tr>
-        <tr>
-            <td><input type="text" name="Nome" size="10"/></td>
-            <td>aaaaaaaaaa</td>
-        </tr>
-        <tr>
-            <td><input type="text" name="Nome" size="10"/></td>
-            <td>aaaaaaaaaa</td>
-        </tr>
-        <tr>
-            <td><input type="text" name="Nome" size="10"/></td>
-            <td>aaaaaaaaaa</td>
-        </tr>
-        <tr>
-            <td><input type="text" name="Nome" size="10"/></td>
-            <td>aaaaaaaaaa</td>
-        </tr>
-        <tr>
-            <td><input type="text" name="Nome" size="10"/></td>
-            <td>aaaaaaaaaa</td>
-        </tr>
-        <tr>
-            <td><input type="text" name="Nome" size="10"/></td>
-            <td>aaaaaaaaaa</td>
-        </tr>
-        <tr>
-            <td><input type="text" name="Nome" size="10"/></td>
-            <td>aaaaaaaaaa</td>
-        </tr>
-        <tr>
-            <td><input type="text" name="Nome" size="10"/></td>
-            <td>aaaaaaaaaa</td>
-        </tr>
-        <tr>
-            <td><input type="text" name="Nome" size="10"/></td>
-            <td>aaaaaaaaaa</td>
+            <td class="texta"><p>Problema</p><textarea name="descrição" id="" cols="30" rows="10" placeholder="Escreva sua reclamação"></textarea></td>
         </tr>
     </table>
-
-    <h1> Relatório de chamados</h1>
-    <table>
-        <tr>
-            <th>Cliente</th>
-            <th>Sistema</th>
-            <th>Módulo</th>
-            <th>Tipo de manutenção</th>
-            <th>SLA</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>Manoela</td>
-            <td>Acessórios</td>
-            <td>Venda</td>
-            <td>Adaptativa</td>
-            <td>90 dias</td>
-            <td>
-                <select name="#">
-                    <option value="inic">Não inicializado</option>
-                    <option value="inic">Inicializado</option>
-                    <option value="inic">Em andamento</option>
-                    <option value="inic">Finalizado</option>
-                </select>
-            </td>
-        </tr>
-
-        <tr>
-            <td>`Pedro</td>
-            <td>Cafeteria</td>
-            <td>Carrinho</td>
-            <td>Adaptativa</td>
-            <td>10 dias</td>
-            <td>
-                <select name="#">
-                    <option value="inic">Não inicializado</option>
-                    <option value="inic">Inicializado</option>
-                    <option value="inic">Em andamento</option>
-                    <option value="inic">Finalizado</option>
-                </select>
-            </td>
-        </tr>
-
-        <tr>
-            <td>Júlia</td>
-            <td>Acessórios</td>
-            <td>Cadastro</td>
-            <td>Corretiva</td>
-            <td>30 dias</td>
-            <td>
-                <select name="#">
-                    <option value="inic">Não inicializado</option>
-                    <option value="inic">Inicializado</option>
-                    <option value="inic">Em andamento</option>
-                    <option value="inic">Finalizado</option>
-                </select>
-            </td>
-        </tr>
-
-        <tr>
-            <td>Raissa</td>
-            <td>Cafeteria</td>
-            <td>Produtos</td>
-            <td>Evolutiva</td>
-            <td>30 dias</td>
-            <td>
-                <select name="#">
-                    <option value="inic">Não inicializado</option>
-                    <option value="inic">Inicializado</option>
-                    <option value="inic">Em andamento</option>
-                    <option value="inic">Finalizado</option>
-                </select>
-            </td>
-        </tr>
-
-        <tr>
-            <td>João</td>
-            <td>Acessórios</td>
-            <td>Produtos</td>
-            <td>Evolutiva</td>
-            <td>30 dias</td>
-            <td>
-                <select name="#">
-                    <option value="inic">Não inicializado</option>
-                    <option value="inic">Inicializado</option>
-                    <option value="inic">Em andamento</option>
-                    <option value="inic">Finalizado</option>
-                </select>
-            </td>
-        </tr>
-
-        <tr>
-            <td>Gabriel</td>
-            <td>Cafeteria</td>
-            <td>Menu</td>
-            <td>Corretiva</td>
-            <td>20 dias</td>
-            <td>
-                <select name="#">
-                    <option value="inic">Não inicializado</option>
-                    <option value="inic">Inicializado</option>
-                    <option value="inic">Em andamento</option>
-                    <option value="inic">Finalizado</option>
-                </select>
-            </td>
-        </tr>
-
-        <tr>
-            <td>Batista</td>
-            <td>Cafeteria</td>
-            <td>Telentrega</td>
-            <td>Adaptativa</td>
-            <td>1 mês</td>
-            <td>
-                <select name="#">
-                    <option value="inic">Não inicializado</option>
-                    <option value="inic">Inicializado</option>
-                    <option value="inic">Em andamento</option>
-                    <option value="inic">Finalizado</option>
-                </select>
-            </td>
-        </tr>
-
-        <tr>
-            <td>Fátima</td>
-            <td>Cafeteria</td>
-            <td>Produtos</td>
-            <td>Presentativa</td>
-            <td>20 dias</td>
-            <td>
-                <select name="#">
-                    <option value="inic">Não inicializado</option>
-                    <option value="inic">Inicializado</option>
-                    <option value="inic">Em andamento</option>
-                    <option value="inic">Finalizado</option>
-                </select>
-            </td>
-        </tr>
-
-        <tr>
-            <td>Maico</td>
-            <td>Cafeteria</td>
-            <td>Contato</td>
-            <td>Presentativa</td>
-            <td>10 dias</td>
-            <td>
-                <select name="#">
-                    <option value="inic">Não inicializado</option>
-                    <option value="inic">Inicializado</option>
-                    <option value="inic">Em andamento</option>
-                    <option value="inic">Finalizado</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>Jeniffer</td>
-            <td>Acessórios</td>
-            <td>Navegação</td>
-            <td>Evolutiva</td>
-            <td>10 dias</td>
-            <td>
-                <select name="#">
-                    <option value="inic">Não inicializado</option>
-                    <option value="inic">Inicializado</option>
-                    <option value="inic">Em andamento</option>
-                    <option value="inic">Finalizado</option>
-                </select>
-            </td>
-        </tr>
-
-    </table>
+        <div class="botao-entrar">
+              <a href="relatorio.html" class="btn">Enviar</a>
+          </div>
 </body>
 </html>
