@@ -52,3 +52,6 @@ th, h1{
     color: aliceblue;
    background-color: transparent;
 }
+select{
+    margin-right: 950px;
+}
